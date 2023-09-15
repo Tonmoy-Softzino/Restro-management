@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router';
+import SignUp from './components/SignUp.vue';
 </script>
 
 <template>
-  <header>
+  <SignUp />
+  <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/1_grnHpaP0BQMrHbcaJfZwIQ.png" width="125" height="125" />
 
     <div class="wrapper">
@@ -17,7 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
 
-  <RouterView />
+  <RouterView /> -->
 </template>
 
 <style scoped>
