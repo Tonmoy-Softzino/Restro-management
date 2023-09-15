@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "make": "Mutton Biriyani",
+        "for": "coupe",
+        "price": 10,
+        "img": 2020
+    },
+    {
+        "id": 2,
+        "make": "Chiken Biriyani",
+        "for": "Single",
+        "price": 3,
+        "img": 2016
+    },
+    {
+        "id": 3,
+        "make": "Kala vuna",
+        "for": "Couple",
+        "price": 4,
+        "img": 2018
+    },
+    {
+        "id": 5,
+        "make": "Mutton korai",
+        "body": "SUV",
+        "price": 5,
+        "img": 2011
+    },
+    {
+        "id": 6,
+        "make": "Chiken Jhalfry",
+        "body": "coupe",
+        "price": 145323,
+        "img": 2023
+    },
+    {
+        "id": 7,
+        "make": "Vorta vaji",
+        "body": "Single",
+        "price": 2,
+        "img": 2003
+    },
+    {
+        "id": 8,
+        "make": "Fish vuna",
+        "body": "Coupe",
+        "price": 5,
+        "img": 2023
+    },
+    {
+        "id": 9,
+        "make": "Desert",
+        "for": "Single",
+        "price": 2,
+        "year": 2019
+    },
+    {
+        "id": 10,
+        "make": "Drinks",
+        "for": "coupe",
+        "price": 1,
+        "img": 2020
+    }
+]
