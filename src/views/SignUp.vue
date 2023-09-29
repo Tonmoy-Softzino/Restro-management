@@ -8,7 +8,7 @@
       alt="Loading..."
       class="w-[220px] h-[220px]"
     />
-    <form action="#" class="flex flex-col">
+    <form action="#" class="flex flex-col" @submit.prevent="handleSubmmit">
       <label for="name">
         <div class="text-black">Name</div>
         <input
@@ -42,3 +42,13 @@
     </form>
   </div>
 </template>
+<script lang="ts" setup>
+import { ref } from 'vue';
+const name = ref('');
+const email = ref('');
+const password = ref('');
+
+const handleSubmmit = () => {
+  console.log(name.value + email.value + password.value);
+};
+</script>
