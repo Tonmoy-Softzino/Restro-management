@@ -85,19 +85,20 @@ nav {
 }
 .toast-container {
   position: fixed;
+  /* width: 100vw; */
   display: flex;
   flex-direction: column;
   float: left;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   top: 4px;
-  right: 30px;
+  /* right: 30px; */
   border-radius: 12px;
-  padding: 20px 35px 20px 25px;
-  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+  /* padding: 20px 35px 20px 25px; */
+  /* box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.1); */
+  /* overflow: hidden; */
   transform: translateX(calc(100% + 30px));
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.35);
-  width: 300px;
+  width: 970px;
   z-index: 9999999;
 }
 nav a {
@@ -136,7 +137,7 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
   .asd {
-    z-index: 1;
+    /* z-index: 1; */
     /* position: fixed; */
   }
 }
